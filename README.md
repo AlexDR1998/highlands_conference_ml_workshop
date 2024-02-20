@@ -11,6 +11,7 @@ git clone https://github.com/AlexDR1998/highlands_conference_ml_workshop.git
 cd highlands_conference_ml_workshop
 conda env create -f env_windows.yml
 conda activate ml_workshop
+pip install notebook
 python setup.py
 ```
 
@@ -21,6 +22,7 @@ git clone https://github.com/AlexDR1998/highlands_conference_ml_workshop.git
 cd highlands_conference_ml_workshop
 conda env create -f env_linux.yml
 conda activate ml_workshop
+pip install notebook
 python setup.py
 ```
 
@@ -31,6 +33,7 @@ git clone https://github.com/AlexDR1998/highlands_conference_ml_workshop.git
 cd highlands_conference_ml_workshop
 conda env create -f env_mac.yml
 conda activate ml_workshop
+pip install notebook
 python setup.py
 ```
 
@@ -38,13 +41,13 @@ python setup.py
 If the conda environment didn't work, for whatever reason, just manually install the python libraries used in `setup.py`. Note that you need to be in python vesrsion 3.11 :
 #### On windows:
 ```
-pip install jax[cpu] optax equinox diffrax tensorflow matplotlib tqdm ipywidgets einops
+pip install jax[cpu] optax equinox diffrax tensorflow matplotlib tqdm ipywidgets einops notebook
 ```
 
 #### On macOS or Ubuntu:
 
 ```
-pip install jaxlib jax[cpu] optax equinox diffrax tensorflow matplotlib tqdm ipywidgets einops
+pip install jaxlib jax[cpu] optax equinox diffrax tensorflow matplotlib tqdm ipywidgets einops notebook
 ```
 
 If you have a gpu, feel free to change the `jax[cpu]` to just `jax`, but you'll have to deal with cuda
