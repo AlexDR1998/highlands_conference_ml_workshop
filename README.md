@@ -35,7 +35,7 @@ python setup.py
 ```
 
 ### These didn't work!
-If the conda environment didn't work, for whatever reason, just manually install the python libraries used in `setup.py`. Note that you need to be in python vesrsion 3.11! :
+If the conda environment didn't work, for whatever reason, just manually install the python libraries used in `setup.py`. Note that you need to be in python vesrsion 3.11 :
 #### On windows:
 ```
 pip install jax[cpu] optax equinox diffrax tensorflow matplotlib tqdm ipywidgets einops
