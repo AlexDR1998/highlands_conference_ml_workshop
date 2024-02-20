@@ -1,4 +1,4 @@
-name: ml_workshop_windows_2
+name: ml_workshop
 channels:
   - conda-forge
   - defaults
@@ -118,4 +118,4 @@ dependencies:
       - werkzeug==3.0.1
       - widgetsnbextension==4.0.10
       - wrapt==1.14.1
-prefix: C:\Users\Alex\anaconda3\envs\ml_workshop_windows_2
+prefix: C:\Users\Alex\anaconda3\envs\ml_workshop
