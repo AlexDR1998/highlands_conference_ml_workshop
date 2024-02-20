@@ -50,4 +50,4 @@ pip install jax[cpu] optax equinox diffrax tensorflow matplotlib tqdm ipywidgets
 pip install jaxlib jax[cpu] optax equinox diffrax tensorflow matplotlib tqdm ipywidgets einops notebook
 ```
 
-If you have a gpu, feel free to change the `jax[cpu]` to just `jax`, but you'll have to deal with cuda
+If you have a gpu, feel free to change the `jax[cpu]` based on the instructions found here: https://jax.readthedocs.io/en/latest/installation.html
